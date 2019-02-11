@@ -28,7 +28,8 @@ RUN apt-get update && \
     # Jupyter Lab
     python3.7 -m pip install jupyterlab ipywidgets && \
     apt-get install -y nodejs npm && \
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
+    jupyter lab build --name='Platform Lab'
 
 ENTRYPOINT ["jupyter-lab"]
 CMD ["--ip=0.0.0.0", "--allow-root", "--no-browser", "--NotebookApp.token=''"]
