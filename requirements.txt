@@ -1,0 +1,12 @@
+beautifulsoup4
+couchbase
+dateutils
+lxml
+pillow
+psycopg2
+PyJWT
+requests
+toml
+xlrd
+xlwt
+xmldict
