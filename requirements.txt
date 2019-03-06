@@ -1,4 +1,6 @@
+avro-python3
 beautifulsoup4
+confluent-kafka
 couchbase
 dateutils
 lxml
